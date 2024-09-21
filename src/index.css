@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+body {
+  background-color: #000b19;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.formContainer {
+  display: flex;
+  margin: auto;
+  box-shadow: #fff 0 0 5px;
+  width: 30vw;
+  border-radius: 20px;
+}
+
+form {
+  min-width: 80%;
+  padding: 30px;
+}
+
+input {
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  margin-bottom: 3vmin;
+  background-color: #000b19;
+  color: #fff;
+}
+
+.submit {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #000b19;
+  box-shadow: #fff 0 0 5px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.aggregateData{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: #fff 0 0 5px;
+    color: #fff;
+    min-width: 30vw;
+}
+
+.data1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+hr{
+    height: 0.5px;
+    background-color: #fff;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ddd;
+}
