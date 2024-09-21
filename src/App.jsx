@@ -17,7 +17,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/data", formData);
+      await axios.post("https://aggregate-function-backend.vercel.app/data", formData);
       alert("Data added successfully");
     } catch (error) {
       console.error("error", error);
@@ -26,7 +26,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/aggregate");
+      const response = await axios.get("https://aggregate-function-backend.vercel.app/aggregate");
       setData(response.data);
     } catch (error) {
       console.error("error", error);
@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Aggregation Function</h1>
+      <h1>Aggregate Function</h1>
 
       <div className="container">
         <div className="left">
